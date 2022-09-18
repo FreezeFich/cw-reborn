@@ -17,9 +17,10 @@ function App() {
           <Routes>
             <Route path="/" element={
              <>
-            <Typography variant='h2' fontWeight="bold">Quiz App</Typography>
-            <StartPage />
+              <Typography variant='h2' fontWeight="bold">Quiz App</Typography>
+              <StartPage />
              </> 
+
             } />
             <Route path="questions" element={<Questions />} />
             <Route path="end" element={<EndPage />} />

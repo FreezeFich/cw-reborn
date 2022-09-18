@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/cw-reborn/static/css/main.92527556.css",
-    "main.js": "/cw-reborn/static/js/main.867362d3.js",
+    "main.js": "/cw-reborn/static/js/main.b4fc55ff.js",
     "index.html": "/cw-reborn/index.html",
     "main.92527556.css.map": "/cw-reborn/static/css/main.92527556.css.map",
-    "main.867362d3.js.map": "/cw-reborn/static/js/main.867362d3.js.map"
+    "main.b4fc55ff.js.map": "/cw-reborn/static/js/main.b4fc55ff.js.map"
   },
   "entrypoints": [
     "static/css/main.92527556.css",
-    "static/js/main.867362d3.js"
+    "static/js/main.b4fc55ff.js"
   ]
 }

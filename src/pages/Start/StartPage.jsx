@@ -47,17 +47,20 @@ const Start = () => {
   }
 
   return (
-    <form onSubmit={handleSubmit}>
-      <SelectField options={response.trivia_categories} label="Category"></SelectField>
-      <SelectField options={difficultyOptions} label="Difficulty"></SelectField>
-      <SelectField options={typeOptions} label="Type"></SelectField>
+    <>
+      <Typography variant='h2' fontWeight="bold">Quiz App</Typography>
+      <form onSubmit={handleSubmit}>
+        <SelectField options={response.trivia_categories} label="Category"></SelectField>
+        <SelectField options={difficultyOptions} label="Difficulty"></SelectField>
+        <SelectField options={typeOptions} label="Type"></SelectField>
       
-      <TextFieldComponent />
+        <TextFieldComponent />
 
-      <Box mt={4} className="button-box">
-        <Button  variant='contained' type='submit'>Start</Button>
-      </Box>
+        <Box mt={4} className="button-box">
+          <Button  variant='contained' type='submit'>Start</Button>
+        </Box>
     </form>
+    </>    
   )
 }
 
